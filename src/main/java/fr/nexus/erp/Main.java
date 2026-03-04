@@ -7,7 +7,7 @@ public class Main {
         boolean accesAutorise = SystemBoot.verifierAcces(7);
 
         if (!accesAutorise) {
-            System.out.println("🛑 Arrêt du programme.");
+            System.out.println("Arrêt du programme.");
             return;
         }
 
